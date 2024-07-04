@@ -1,10 +1,17 @@
-.container{
-    width: 1000px;
-}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.content{
+    width: 1000px;
 }
 
 .container-logo{
@@ -43,7 +50,6 @@ ul{
     list-style: none;
     display: flex;
     justify-content: space-between;  
-    max-width: 800px; 
     margin: 0 auto;
     margin-bottom: 102px;
     list-style: none;
